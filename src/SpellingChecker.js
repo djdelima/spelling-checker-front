@@ -11,7 +11,7 @@ function SpellingChecker() {
     }
 
     const handleCheckSpelling = () => {
-        fetch("http://localhost:3000/spell-check", {
+        fetch(`${process.env.REACT_APP_SPELL_CHECK_URL}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
