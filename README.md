@@ -33,6 +33,14 @@ Start the development server:
 $ npm start
 ```
 
+### Running tests
+
+To run the tests, use the following command:
+
+```bash
+$ npm test
+```
+
 The application will be running on http://localhost:3000
 
 ### Building for production
@@ -46,6 +54,9 @@ This will create a production-ready build of the application in the build folder
 
 ### Deployment
 The application is set up for deployment to Heroku. To deploy, you will need to set up a Heroku account, create a new app, and connect it to the GitHub repository. Once connected, Heroku will automatically build and deploy the application when changes are pushed to the main branch.
+
+### GitHub Actions for deployment
+The repository is set up with GitHub Actions for continuous deployment. When changes are pushed to the main branch, it will trigger the GitHub Action workflow to build, create docker image and deploy it application to Heroku Registry.
 
 ### Built With
 - [React](https://reactjs.org/) - The web framework used
