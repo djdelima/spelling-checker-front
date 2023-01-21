@@ -63,7 +63,7 @@ The repository is set up with GitHub Actions for continuous deployment. When cha
 - [Docker](https://www.docker.com/) - Containerization
 
 ### Authors
-x
+
 - **Diego Jose de Lima** - [djdelima](https://github.com/djdelima)
 
 ### License
