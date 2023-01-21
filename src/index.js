@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './setupEnv';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import SpellingChecker from "./SpellingChecker";
+import {config} from 'react-env'
+
+config()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
