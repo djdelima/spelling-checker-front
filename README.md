@@ -60,8 +60,8 @@ This will create a production-ready build of the application in the build folder
 
 https://spelling-checker-front.herokuapp.com/
 
-### Deployment
-The application is set up for deployment to Heroku. To deploy, you will need to set up a Heroku account, create a new app, and connect it to the GitHub repository. Once connected, Heroku will automatically build and deploy the application when changes are pushed to the main branch.
+### Deployment Setup
+The application is set up for deployment to Heroku. To deploy, you will need to set up a Heroku account, create a new app and get an API_KEY.
 
 ### GitHub Actions for deployment
 The repository is set up with GitHub Actions for continuous deployment. When changes are pushed to the main branch, it will trigger the GitHub Action workflow to build, create docker image and deploy it application to Heroku Registry.
