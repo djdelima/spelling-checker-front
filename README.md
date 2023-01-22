@@ -5,6 +5,10 @@ This is the frontend application for the Spelling Checker project. It allows use
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Stack
+
+- React
+
 ### Prerequisites
 
 - Node.js
@@ -33,6 +37,8 @@ Start the development server:
 $ npm start
 ```
 
+The application will be running on http://localhost:3000
+
 ### Running tests
 
 To run the tests, use the following command:
@@ -40,8 +46,6 @@ To run the tests, use the following command:
 ```bash
 $ npm test
 ```
-
-The application will be running on http://localhost:3000
 
 ### Building for production
 To build the application for production, run the following command:
@@ -51,6 +55,10 @@ $ npm run build
 ```
 
 This will create a production-ready build of the application in the build folder.
+
+### Live Demo - React Front-end
+
+https://spelling-checker-front.herokuapp.com/
 
 ### Deployment
 The application is set up for deployment to Heroku. To deploy, you will need to set up a Heroku account, create a new app, and connect it to the GitHub repository. Once connected, Heroku will automatically build and deploy the application when changes are pushed to the main branch.
